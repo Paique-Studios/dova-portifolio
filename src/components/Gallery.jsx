@@ -23,7 +23,7 @@ export default function Gallery({ onOpenModal }) {
     useEffect(() => {
         const fetchPortfolio = async () => {
             try {
-                const response = await fetch(`${import.meta.env.BASE_URL}portfolio.json`);
+                const response = await fetch(`${import.meta.env.BASE_URL}portfolio.json?t=${new Date().getTime()}`);
                 if (!response.ok) throw new Error("Failed to fetch");
 
                 const data = await response.json();

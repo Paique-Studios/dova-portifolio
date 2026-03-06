@@ -73,10 +73,11 @@ function generatePortfolio() {
 
         const images = imageFiles.map(f => `/img_port/${item}/${f}`);
 
-        // Mapeia descrições completas para facilitar leitura no UI
+        // Mapeia descrições completas par o formato webp
         const finalDescriptions = {};
         for (const [filename, text] of Object.entries(imageDescriptions)) {
-            finalDescriptions[`/img_port/${item}/${filename}`] = text;
+            const webpName = filename.replace(/\.[^/.]+$/, ".webp");
+            finalDescriptions[`/img_port/${item}/${webpName}`] = text;
         }
 
         // Gif
@@ -89,7 +90,8 @@ function generatePortfolio() {
 
         // Lógica de "Capa": se coverImage estiver preenchido, preenche-la! 
         if (coverImage && images.length > 0) {
-            const matchIndex = images.findIndex(img => img.endsWith(coverImage));
+            const coverBase = coverImage.replace(/\.[^/.]+$/, "");
+            const matchIndex = images.findIndex(img => img.includes(coverBase));
             if (matchIndex > -1) {
                 const [cover] = images.splice(matchIndex, 1);
                 images.unshift(cover);
@@ -105,7 +107,7 @@ function generatePortfolio() {
                 priority,
                 images,
                 imageDescriptions: finalDescriptions,
-                coverImage,
+                coverImage: coverImage ? coverImage.replace(/\.[^/.]+$/, ".webp") : coverImage,
                 ...(gif && { gif }),
                 ...(video && { video }),
                 description
