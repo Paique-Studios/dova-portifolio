@@ -167,6 +167,8 @@ ol {
   font-size: var(--font-size-lg);
   color: var(--color-text-secondary);
   max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* Scrollbar */
