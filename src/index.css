@@ -1,0 +1,188 @@
+/* ============================================
+   DESIGN SYSTEM — Portfólio Dova 3D
+   ============================================ */
+
+:root {
+  /* Base Colors (RGB) for Alpha Transparency Support */
+  --color-base-primary: 245, 241, 234;
+  /* #F5F1EA - Latte Milk */
+  --color-base-secondary: 255, 255, 255;
+  /* #FFFFFF - White */
+  --color-base-text: 26, 26, 26;
+  /* #1A1A1A - Dark Text */
+  --color-base-accent: 211, 84, 0;
+  /* #D35400 - Burnt Orange */
+  --color-base-accent-sec: 58, 39, 24;
+  /* #3A2718 - Espresso Brown */
+
+  /* Colors - Latte Studios Theme */
+  --color-bg-primary: rgb(var(--color-base-primary));
+  --color-bg-secondary: rgb(var(--color-base-secondary));
+  --color-bg-card: rgb(var(--color-base-secondary));
+  --color-bg-glass: rgba(var(--color-base-secondary), 0.7);
+  --color-border-glass: rgba(var(--color-base-accent-sec), 0.08);
+
+  --color-text-primary: rgb(var(--color-base-text));
+  --color-text-secondary: rgba(var(--color-base-text), 0.7);
+  --color-text-muted: rgba(var(--color-base-text), 0.5);
+  --color-text-inverse: rgb(var(--color-base-secondary));
+  --color-text-inverse-sec: rgba(var(--color-base-secondary), 0.7);
+  --color-text-inverse-muted: rgba(var(--color-base-secondary), 0.5);
+
+  --color-accent: rgb(var(--color-base-accent));
+  --color-accent-hover: #F56E1A;
+  --color-accent-glow: rgba(var(--color-base-accent), 0.25);
+
+  --color-accent-secondary: rgb(var(--color-base-accent-sec));
+  --color-accent-secondary-glow: rgba(var(--color-base-accent-sec), 0.15);
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, #F5F1EA 0%, #EAE4D9 50%, #F5F1EA 100%);
+  --gradient-accent: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-secondary) 100%);
+  --gradient-card-hover: linear-gradient(135deg, rgba(211, 84, 0, 0.08) 0%, rgba(58, 39, 24, 0.05) 100%);
+
+  /* Typography */
+  --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3.5rem;
+  --font-size-5xl: 5rem;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 40px var(--color-accent-glow);
+
+  /* Glassmorphism Blur */
+  --blur-sm: 8px;
+  --blur-md: 12px;
+  --blur-lg: 20px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout */
+  --max-width: 1280px;
+  --header-height: 72px;
+}
+
+/* ============================================
+   RESET & BASE
+   ============================================ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-xl);
+}
+
+.section-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+  background: var(--gradient-accent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section-subtitle {
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+  max-width: 600px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-muted);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-secondary);
+}

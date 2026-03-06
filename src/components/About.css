@@ -1,0 +1,114 @@
+/* ============================================
+   ABOUT SECTION
+   ============================================ */
+
+.about {
+    padding: var(--space-5xl) 0;
+    background: var(--color-bg-secondary);
+    position: relative;
+    overflow: hidden;
+}
+
+.about__glow {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    filter: blur(var(--blur-lg));
+    opacity: 0.08;
+    pointer-events: none;
+    background: var(--color-accent);
+    top: 50%;
+    right: -100px;
+    transform: translateY(-50%);
+}
+
+.about__inner {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4xl);
+    position: relative;
+    z-index: 1;
+}
+
+.about__text {
+    flex: 1;
+}
+
+.about__text p {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+    margin-bottom: var(--space-lg);
+}
+
+.about__skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-top: var(--space-xl);
+}
+
+.about__skill-badge {
+    padding: var(--space-sm) var(--space-lg);
+    background: var(--color-bg-glass);
+    border: 1px solid var(--color-border-glass);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    transition: all var(--transition-fast);
+}
+
+.about__skill-badge:hover {
+    color: var(--color-text-primary);
+    border-color: var(--color-accent);
+    box-shadow: 0 0 16px var(--color-accent-glow);
+}
+
+.about__stats {
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
+}
+
+.about__stat {
+    text-align: center;
+    padding: var(--space-xl);
+    background: var(--color-bg-glass);
+    border: 1px solid var(--color-border-glass);
+    border-radius: var(--radius-md);
+    backdrop-filter: blur(var(--blur-md));
+    transition: all var(--transition-base);
+}
+
+.about__stat:hover {
+    border-color: var(--color-accent-glow);
+    transform: translateY(-2px);
+}
+
+.about__stat-number {
+    font-size: var(--font-size-3xl);
+    font-weight: 800;
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.about__stat-label {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    margin-top: var(--space-xs);
+}
+
+@media (max-width: 768px) {
+    .about__inner {
+        flex-direction: column;
+        gap: var(--space-2xl);
+    }
+
+    .about__stats {
+        width: 100%;
+    }
+}

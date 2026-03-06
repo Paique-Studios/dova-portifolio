@@ -1,0 +1,558 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "1o Lugar BlockBench Train",
+      "tag": "Objetos",
+      "priority": 0,
+      "images": [
+        "/img_port/1o-Lugar-BlockBench-Train/Primeirolugar BlockBench ContestTrain.png",
+        "/img_port/1o-Lugar-BlockBench-Train/Primeirolugar BlockBench ContestTrain2.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Primeiro lugar no concurso do Blockbench!"
+    },
+    {
+      "id": 2,
+      "title": "2o Lugar Blockbench Sci-Fi",
+      "tag": "Conquistas",
+      "priority": 1,
+      "images": [
+        "/img_port/2o-Lugar-Blockbench-Sci-Fi/Segundolugar Blockbench Contest SCIFI.png",
+        "/img_port/2o-Lugar-Blockbench-Sci-Fi/carbbcontest.png",
+        "/img_port/2o-Lugar-Blockbench-Sci-Fi/gtaopressor.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "Segundolugar Blockbench Contest SCIFI.png",
+      "description": "Segundo lugar no concurso do Blockbench."
+    },
+    {
+      "id": 3,
+      "title": "Arthos",
+      "tag": "Marcas",
+      "priority": 2,
+      "images": [
+        "/img_port/Arthos/Arthos3.png",
+        "/img_port/Arthos/Arthos.png",
+        "/img_port/Arthos/Arthos2.png",
+        "/img_port/Arthos/ArthosGrapes.png",
+        "/img_port/Arthos/ArthosWineGlass.png",
+        "/img_port/Arthos/ArthosWineGlass2.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "Arthos3.png",
+      "description": "Modelo 3D para marca de vinhos"
+    },
+    {
+      "id": 7,
+      "title": "Food Boards",
+      "tag": "Comida",
+      "priority": 3,
+      "images": [
+        "/img_port/Burger-Board/pizza.png",
+        "/img_port/Burger-Board/burger_board.png",
+        "/img_port/Burger-Board/fries.png",
+        "/img_port/Burger-Board/hotdog_board.png",
+        "/img_port/Burger-Board/milkshake_board.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "pizza.png",
+      "description": "Cardápios estilizados de comida."
+    },
+    {
+      "id": 9,
+      "title": "Christmas",
+      "tag": "Temáticos",
+      "priority": 4,
+      "images": [
+        "/img_port/Christmas/xmas3.png",
+        "/img_port/Christmas/xmastree.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "video": "/img_port/Christmas/xmas.mp4",
+      "description": "Cenas de Natal com árvore e decorações."
+    },
+    {
+      "id": 18,
+      "title": "House",
+      "tag": "Cenários",
+      "priority": 5,
+      "images": [
+        "/img_port/House/House.png",
+        "/img_port/House/House2.png",
+        "/img_port/House/House3.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Casa estilizada com iluminação aconchegante."
+    },
+    {
+      "id": 19,
+      "title": "House 3D",
+      "tag": "Cenários",
+      "priority": 6,
+      "images": [
+        "/img_port/House-3D/House3D_2.png",
+        "/img_port/House-3D/House3D.png",
+        "/img_port/House-3D/town.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "House3D_2",
+      "description": "Projeto arquitetônico em 3D isométrico."
+    },
+    {
+      "id": 21,
+      "title": "Hummingbird",
+      "tag": "Personagens",
+      "priority": 7,
+      "images": [
+        "/img_port/Hummingbird/HummingBird.png",
+        "/img_port/Hummingbird/HummingBird2.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "Hummingbird_2",
+      "description": "Beija-flor 3D com detalhes refinados."
+    },
+    {
+      "id": 27,
+      "title": "Mushroom",
+      "tag": "Objetos",
+      "priority": 8,
+      "images": [
+        "/img_port/Mushroom/mushroom.png",
+        "/img_port/Mushroom/mushroom2.png",
+        "/img_port/Mushroom/mushroom3.png",
+        "/img_port/Mushroom/mushroom4.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "mushroom.mp4",
+      "video": "/img_port/Mushroom/mushroom.mp4",
+      "description": "Cogumelo estilizado com animação."
+    },
+    {
+      "id": 38,
+      "title": "Sorvete",
+      "tag": "Comida",
+      "priority": 9,
+      "images": [
+        "/img_port/Sorvete/sorvete.png",
+        "/img_port/Sorvete/sorvete2.png",
+        "/img_port/Sorvete/sorvete3.png",
+        "/img_port/Sorvete/sorvete4.png",
+        "/img_port/Sorvete/sorvete5.png",
+        "/img_port/Sorvete/sorvete6.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Sorvete 3D com texturas apetitosas e render realista."
+    },
+    {
+      "id": 5,
+      "title": "Abandoned Bear",
+      "tag": "Personagens",
+      "priority": 1000,
+      "images": [
+        "/img_port/Bear/Bear.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Modelo estilizado de urso abandonado low-poly para o concurso do Blockbench."
+    },
+    {
+      "id": 4,
+      "title": "Abrigo scifi",
+      "tag": "Objetos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Base/base.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Modelo de abrigo Sci-Fi"
+    },
+    {
+      "id": 8,
+      "title": "Cannon",
+      "tag": "Objetos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Cannon/cannon.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Canhão estilizado voxel."
+    },
+    {
+      "id": 10,
+      "title": "Cool Cardboard",
+      "tag": "Jogos",
+      "priority": 1000,
+      "images": [],
+      "imageDescriptions": {},
+      "coverImage": "cardboard.gif",
+      "gif": "/img_port/Cool-Cardboard/cardboard.gif",
+      "description": "Apenas uma cardboard."
+    },
+    {
+      "id": 11,
+      "title": "Easter",
+      "tag": "Temáticos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Easter/Easter.png",
+        "/img_port/Easter/Easter2.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Cena de Páscoa com detalhes encantadores."
+    },
+    {
+      "id": 12,
+      "title": "Eevee",
+      "tag": "Personagens",
+      "priority": 1000,
+      "images": [
+        "/img_port/Eevee/Eeve.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Modelo fan-art do Pokémon Eevee."
+    },
+    {
+      "id": 13,
+      "title": "Glass Cups",
+      "tag": "Objetos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Glass-Cups/GlassCups.png",
+        "/img_port/Glass-Cups/GlassCups2.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Copos de vidro com refração e transparência."
+    },
+    {
+      "id": 14,
+      "title": "God Rays",
+      "tag": "Cenários",
+      "priority": 1000,
+      "images": [
+        "/img_port/God-Rays/godrays.png",
+        "/img_port/God-Rays/godrays2.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Cena com iluminação volumétrica e raios de luz."
+    },
+    {
+      "id": 15,
+      "title": "Halloween 2021",
+      "tag": "Temáticos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Halloween-2021/Halloween2021_2.png",
+        "/img_port/Halloween-2021/Halloween2021_3.png",
+        "/img_port/Halloween-2021/Halloween2021.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "Halloween2021.gif",
+      "gif": "/img_port/Halloween-2021/Halloween2021.gif",
+      "description": "Cena temática de Halloween com animação."
+    },
+    {
+      "id": 16,
+      "title": "Halloween Projects",
+      "tag": "Temáticos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Halloween-Scene/halloween.jpg",
+        "/img_port/Halloween-Scene/Halloween2.png",
+        "/img_port/Halloween-Scene/halloween3.png",
+        "/img_port/Halloween-Scene/Halloween4.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Cenários de Halloween com atmosfera sombria."
+    },
+    {
+      "id": 17,
+      "title": "Harry Potter Chess",
+      "tag": "Jogos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Harry-Potter-Chess/HarryPotter Chess.png",
+        "/img_port/Harry-Potter-Chess/HarryPotter Chess2.png",
+        "/img_port/Harry-Potter-Chess/HarryPotterselo.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Xadrez de bruxo inspirado em Harry Potter."
+    },
+    {
+      "id": 20,
+      "title": "Houses Village",
+      "tag": "Cenários",
+      "priority": 1000,
+      "images": [
+        "/img_port/Houses-Village/houses.png",
+        "/img_port/Houses-Village/houses2.png",
+        "/img_port/Houses-Village/houses3.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Vila de casas estilizadas com telhados coloridos."
+    },
+    {
+      "id": 22,
+      "title": "Kombi VW",
+      "tag": "Veículos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Kombi-VW/Kombi.png",
+        "/img_port/Kombi-VW/Kombi2.png",
+        "/img_port/Kombi-VW/Kombi3.jpg"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Kombi Volkswagen clássica modelada em 3D."
+    },
+    {
+      "id": 23,
+      "title": "Lareira",
+      "tag": "Cenários",
+      "priority": 1000,
+      "images": [
+        "/img_port/Lareira/Lareira.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Cena aconchegante com lareira acesa."
+    },
+    {
+      "id": 24,
+      "title": "Mascote",
+      "tag": "Personagens",
+      "priority": 1000,
+      "images": [
+        "/img_port/Mascote/mascote.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Design de mascote estilizado."
+    },
+    {
+      "id": 25,
+      "title": "Mia Studios",
+      "tag": "Profissional",
+      "priority": 1000,
+      "images": [
+        "/img_port/Mia-Studios/MiaStudios_9.png",
+        "/img_port/Mia-Studios/miaversary.jpg"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Trabalho desenvolvido para a Mia Studios."
+    },
+    {
+      "id": 26,
+      "title": "Misc Renders",
+      "tag": "Profissional",
+      "priority": 1000,
+      "images": [
+        "/img_port/Misc-Renders/image.png",
+        "/img_port/Misc-Renders/image10.png",
+        "/img_port/Misc-Renders/image11.png",
+        "/img_port/Misc-Renders/image12.png",
+        "/img_port/Misc-Renders/image5.png",
+        "/img_port/Misc-Renders/image6.png",
+        "/img_port/Misc-Renders/image7.png",
+        "/img_port/Misc-Renders/image8.png",
+        "/img_port/Misc-Renders/image9.png",
+        "/img_port/Misc-Renders/NFT.png",
+        "/img_port/Misc-Renders/SteampunkTable.png",
+        "/img_port/Misc-Renders/SteampunkTable2.png",
+        "/img_port/Misc-Renders/Stones.png",
+        "/img_port/Misc-Renders/WeirdMonster.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Conjunto de renders diversos para projetos variados."
+    },
+    {
+      "id": 28,
+      "title": "Naboo Star Wars",
+      "tag": "Cenários",
+      "priority": 1000,
+      "images": [
+        "/img_port/Naboo-Star-Wars/Naboo.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Cenário épico inspirado no planeta Naboo."
+    },
+    {
+      "id": 29,
+      "title": "Porto",
+      "tag": "Cenários",
+      "priority": 1000,
+      "images": [
+        "/img_port/Porto/Porto.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Cenário costeiro inspirado em Porto, Portugal."
+    },
+    {
+      "id": 30,
+      "title": "Poseidon",
+      "tag": "Personagens",
+      "priority": 1000,
+      "images": [
+        "/img_port/Poseidon/Poseidon.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Estátua de Poseidon com detalhes clássicos."
+    },
+    {
+      "id": 31,
+      "title": "Render Agua",
+      "tag": "Cenários",
+      "priority": 1000,
+      "images": [
+        "/img_port/Render-Agua/renderagua.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Cena com simulação realista de água."
+    },
+    {
+      "id": 32,
+      "title": "Roblox Egg",
+      "tag": "Temáticos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Roblox-Egg/Crowbar.png",
+        "/img_port/Roblox-Egg/Crowbar2.png",
+        "/img_port/Roblox-Egg/RobloxEgg.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Ovo temático para evento do Roblox."
+    },
+    {
+      "id": 33,
+      "title": "Roblox Maps",
+      "tag": "Jogos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Roblox-Maps/RobloxScreenShot20230218_191100005.png",
+        "/img_port/Roblox-Maps/RobloxScreenShot20230323_103308637.png",
+        "/img_port/Roblox-Maps/RobloxScreenShot20230326_145419237.png",
+        "/img_port/Roblox-Maps/RobloxScreenShot20230326_145818977.png",
+        "/img_port/Roblox-Maps/RobloxScreenShot20230419_143702604.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Mapas e cenários desenvolvidos para jogos no Roblox."
+    },
+    {
+      "id": 34,
+      "title": "Ruffles Moto",
+      "tag": "Veículos",
+      "priority": 1000,
+      "images": [],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "gif": "/img_port/Ruffles-Moto/Ruffles_Moto.gif",
+      "description": "Moto temática Ruffles com animação."
+    },
+    {
+      "id": 35,
+      "title": "Site LUP",
+      "tag": "Profissional",
+      "priority": 1000,
+      "images": [
+        "/img_port/Site-LUP/sitelup.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Elementos 3D criados para o site da LUP."
+    },
+    {
+      "id": 36,
+      "title": "Skull",
+      "tag": "Personagens",
+      "priority": 1000,
+      "images": [
+        "/img_port/Skull/Skull.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Crânio 3D com texturização realista."
+    },
+    {
+      "id": 37,
+      "title": "Skyrim Dragon",
+      "tag": "Personagens",
+      "priority": 1000,
+      "images": [
+        "/img_port/Skyrim-Dragon/SkyrimDragon.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Fan-art do dragão de Skyrim."
+    },
+    {
+      "id": 39,
+      "title": "Statue",
+      "tag": "Personagens",
+      "priority": 1000,
+      "images": [
+        "/img_port/Statue/statue.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Estátua modelada com acabamento clássico."
+    },
+    {
+      "id": 40,
+      "title": "Tangled Tower",
+      "tag": "Cenários",
+      "priority": 1000,
+      "images": [
+        "/img_port/Tangled-Tower/TangledTower.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Torre inspirada na torre de Rapunzel."
+    },
+    {
+      "id": 6,
+      "title": "Truck",
+      "tag": "Veículos",
+      "priority": 1000,
+      "images": [
+        "/img_port/Blockbench-Projects/truck.png"
+      ],
+      "imageDescriptions": {},
+      "coverImage": "",
+      "description": "Caminhão estilizado low-poly."
+    }
+  ],
+  "tags": [
+    "Todos",
+    "Cenários",
+    "Comida",
+    "Conquistas",
+    "Jogos",
+    "Marcas",
+    "Objetos",
+    "Personagens",
+    "Profissional",
+    "Temáticos",
+    "Veículos"
+  ]
+}
